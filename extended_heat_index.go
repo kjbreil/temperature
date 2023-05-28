@@ -123,8 +123,6 @@ func heatTransfer(ts, ta, hc, phiRad float64) float64 {
 	return 1.0 / (hc + hr)
 }
 
-var ()
-
 type equalVariable struct {
 	name  string
 	phi   float64
